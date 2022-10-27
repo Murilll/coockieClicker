@@ -3,6 +3,7 @@ public abstract class Machine
     public string Name { get; set; }
     public int Coins { get; set; }
     public int Cost { get; set; }
+    public int Time { get; set; }
 } 
 
 
@@ -13,6 +14,7 @@ public class DevOlds : Machine
         this.Name = "DevOlds";
         this.Coins = 5;
         this.Cost = 100;
+        this.Time = 0;
     }
 }
 
@@ -23,6 +25,7 @@ public class Xlr9 : Machine
         this.Name = "Xlr9";
         this.Coins = 10;
         this.Cost = 1000;
+        this.Time = 0;
     }
 }
 
@@ -33,6 +36,7 @@ public class Xsupra : Machine
         this.Name = "Xsupra";
         this.Coins = 15;
         this.Cost = 1100;
+        this.Time = 0;
     }
 }
 
@@ -43,6 +47,7 @@ public class Macha : Machine
         this.Name = "Macha";
         this.Coins = 17;
         this.Cost = 1250;
+        this.Time = 0;
     }
 }
 
@@ -53,5 +58,6 @@ public class Zom : Machine
         this.Name = "Zom";
         this.Coins = 20;
         this.Cost = 1500;
+        this.Time = 0;
     }
 }
