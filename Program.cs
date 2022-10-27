@@ -17,7 +17,7 @@ listMachine.Add(zom);
 Console.WriteLine("------- BEM VINDO AO MASTER COOCKIE CLICKER SUPRA SURF BLADE DIVERS -------");
 bool running = true;
 int coin = 0;
-int dps = 10;
+int dps = 1;
 while (running)
 {
     
