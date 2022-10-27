@@ -5,15 +5,7 @@ public abstract class Machine
     public int Cost { get; set; }
 } 
 
-public class Zero: Machine
-{
-        public Zero()
-    {
-        this.Name = "DevOlds";
-        this.Coins = 5;
-        this.Cost = 100;
-    }   
-}
+
 public class DevOlds : Machine
 {
     public DevOlds()
